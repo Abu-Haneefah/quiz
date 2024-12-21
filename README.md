@@ -1,2 +1,2 @@
 # quiz
-quiz project
+A quiz app for developers
