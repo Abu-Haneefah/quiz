@@ -1,0 +1,159 @@
+
+body{
+    background-color: #22223b;
+    font-family: 'Opem-Sans', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 65vw;
+    height: 80vh;
+    background-color: white;
+    position: relative;
+}
+.game{
+    display: none;
+}
+.content{
+    padding: 50px;
+}
+.question{
+    font-size: 40px;
+}
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.submit{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+
+.intro{
+    /* display: none; */
+  text-align: center;
+    padding-top: 150px;
+}
+.intro_header{
+    font-size: 2rem;
+}
+.intro_description{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.start{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.result{
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+.result h1{
+    font-size: 50px;
+}
+.correct{
+    color: green;
+}
+.wrong{
+    color:red;
+}
+button{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.correction {
+    display: none;
+        width: 65vw;
+        height: 80vh;
+        margin: 0 auto; 
+        border: 1px solid #ccc; 
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #f9f9f9; 
+        font-family: Arial, sans-serif; 
+    }
+    .answers-only{
+        margin-bottom: 20px;
+    }
+   .correction.answer {
+        margin: 8px 0;
+        font-size: 0.9rem; 
+    }
+    
+    h3 {
+        margin-top: 0;
+        color: #333; 
+        font-size: 1.5rem;
+    }
+    
+
+    .correction::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .correction::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 4px;
+    }
+    
+    .correction::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+    
+    .correction::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+@media only screen and (max-width: 600px){
+    .container{
+        height: 90vh;
+    }
+    .intro{
+        padding-top: 90px;
+    }
+    .intro_description{
+        font-size: 1rem;
+    }
+    .question{
+        font-size: 1.5rem;
+    }
+    .answer{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .result h1{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .play{
+        margin-bottom: 10px;
+    }
+
+
+}
