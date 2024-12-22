@@ -7,8 +7,8 @@ body{
     align-items: center;
 }
 .container{
-    width: 65vw;
-    height: 80vh;
+    width: 800px;
+    /* height: 500px; */
     background-color: white;
     position: relative;
 }
@@ -42,7 +42,7 @@ body{
 .intro{
     /* display: none; */
   text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .intro_header{
     font-size: 2rem;
@@ -59,6 +59,7 @@ body{
     border: none;
     cursor: pointer;
     padding: 10px 20px;
+    margin-bottom: 30px;
 }
 .result{
     display: none;
@@ -83,9 +84,9 @@ button{
 }
 
 .correction {
-    display: none;
-        width: 65vw;
-        height: 80vh;
+        display: none;
+        width: 800px;
+        height: 500px;
         margin: 0 auto; 
         border: 1px solid #ccc; 
         border-radius: 8px;
@@ -129,11 +130,8 @@ button{
     }
 
 @media only screen and (max-width: 600px){
-    .container{
-        height: 90vh;
-    }
     .intro{
-        padding-top: 90px;
+        padding-top: 20px;
     }
     .intro_description{
         font-size: 1rem;
@@ -153,6 +151,10 @@ button{
     }
     .play{
         margin-bottom: 10px;
+    }
+    .correction{
+        width: 80vw;
+        height: 100vh;
     }
 
 
